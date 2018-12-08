@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "http://absali.me/",
   "dependencies": {
+    "gh-pages": "^2.0.1",
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
     "react-scripts": "2.0.5"
@@ -13,7 +14,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -b master -d build",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
