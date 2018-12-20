@@ -1,0 +1,155 @@
+{
+  "main": {
+    "name":"Abbas Ali",
+    "occupation":"Cybersecurity Engineering Student",
+    "description":"I am pursuing Professional master's degree from Univerity of Maryland, College Park acing in courses like Hacking in C, Network and Protocol, Algorithms and Data Structures",
+    "image":"profile.jpg",
+    "bio":"I love understanding people’s problems and finding ways to solve them. I care deeply about the people I work with and bring empathy, strong communication and homely environment to teams. I like to challenge myself and strive to learn and teach as much as I can.",
+    "contactmessage":"",
+    "email": "absali@umd.edu",
+    "phone": "650-457-7684",
+    "address":{
+      "street":"8125 48th Avenue",
+      "city":"College Park",
+      "state":"(MD)",
+      "zip": "20740"
+    },
+    "website": "https://absali.me/",
+    "resumedownload":"https://absali.me/",
+    "social":[
+      {
+        "name":"facebook",
+        "url":"https://www.facebook.com/abbas66we",
+        "className":"fa fa-facebook"
+      },
+      {
+        "name":"google-plus",
+        "url":"https://plus.google.com/+abbasali6693",
+        "className":"fa fa-google-plus"
+      },
+      {
+        "name":"linkedin",
+        "url":"https://www.linkedin.com/in/absali6693/",
+        "className":"fa fa-linkedin"
+      },
+      {
+        "name":"instagram",
+        "url":"https://www.instagram.com/absali6693/",
+        "className":"fa fa-instagram"
+      },
+      {
+        "name":"github",
+        "url":"https://github.com/absali6693",
+        "className":"fa fa-github"
+      },
+      {
+        "name":"skype",
+        "url":"skype:absali6693",
+        "className":"fa fa-skype"
+      }
+    ]
+  },
+  "resume":{
+    "skillmessage":"I have worked on legacy codes as well as created projects from scratch so I understand the importance of version control, proper commenting and indentation. I am passionate about programming and I have a keen interest in cybersecurity, blockchain, algorithms, data structures and networking.",
+    "education":[
+      {
+        "school":"University of MAryland, College Park",
+        "degree":"Master of Engineering, Cybersecurity",
+        "graduated":"May 2020(Expected)",
+        "description":"Hacking in C | TCP/IP Networking | Network Protocols | Secure Operating Systems | Security Tools | Data  Structures"
+      },
+      {
+        "school":"Ujjain Engineering College",
+        "degree":"Bachelor of Engineering, Cumputer Science",
+        "graduated":"May 2016",
+        "description":"Object Oriented Programming using Java | Analysis and Design of Algorithm | Computer Architecture | Operating systems | Database Management systems | Computer Networks | Distributed Systems | Web Security"
+      }
+    ],
+    "work":[
+      {
+        "company":"TechRacers",
+        "title":"Solution Engineer",
+        "years":"August 2016 - July 2018",
+        "description":"I started working as a C++ developer and undertook a Geo-tracking module, which took month to çompletion and integration. I was then asked to learn React-Native in which I worked on a number of applications as well as modules including a module for video calling, chatting integrated with firebase, payment integration and template screen. I also learned iOS and android development during this this. I was then assigned the task to research on blockchains like Bitcoin, Ethereum, Monero, etc"
+      },
+      {
+        "company":"Commutatus",
+        "title":"Full stack developer",
+        "years":"August 2015 - December 2015",
+        "description":""
+      }
+    ],
+    "skills":[
+      {
+        "name":"Git",
+        "level":"70%"
+      },
+      {
+        "name":"React-Native",
+        "level":"90%"
+      },
+      {
+        "name":"Blockchain",
+        "level":"65%"
+      },
+      {
+        "name":"Solidity",
+        "level":"90%"
+      },
+      {
+        "name":"Python",
+        "level":"65%"
+      },
+      {
+        "name":"Perl",
+        "level":"65%"
+      },
+      {
+        "name":"GDB/Objdump",
+        "level":"75%"
+      },
+      {
+        "name":"C/C++",
+        "level":"55%"
+      },
+      {
+        "name":"iOS",
+        "level":"65%"
+      },
+      {
+        "name":"CSS",
+        "level":"60%"
+      },
+      {
+        "name":"HTML5",
+        "level":"60%"
+      },
+      {
+        "name":"ReactJs",
+        "level":"20%"
+      }
+    ]
+  },
+  "portfolio":{
+    "projects": [
+      {
+        "title":"Canadian Wanderlust",
+        "category":"My Travel Blog for my post-university travels",
+        "image":"canadian-wanderlust.jpg",
+        "url":"https://www.canadianwanderlust.com"
+      }
+    ]
+  },
+  "testimonials":{
+    "testimonials":[
+      {
+        "text":"I enjoyed working with Abbas as he is a very hard working and a detail oriented person and has exceptional expertise in leadership and motivation. He is not only reliable and forward-thinking, but provides out of the box solutions. His enthusiasm and dedication are inspiring making him a great asset and a valuable resource. I would choose to work with him again given the opportunity, and I highly recommend him without any hesitation.",
+        "user":"Nidish Ramakrishnan"
+      },
+      {
+        "text":"Abbas is a capable, hard-working personality. Always ready to adopt new working environments and technologies. He is dedicated, self-motivated and independent person and has a positive attitude toward work and colleagues.",
+        "user":"Praveen Deshmukh"
+      }
+    ]
+  }
+}
