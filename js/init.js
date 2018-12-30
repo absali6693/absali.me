@@ -150,14 +150,18 @@
                '&contactSubject=' + contactSubject + '&contactMessage=' + contactMessage;
 
       $.ajax({
-
-	      type: "POST",
-	      url: "inc/sendEmail.php",
-	      data: data,
+         type: 'POST',
+         data: {
+            'from_name': contactName,
+            'from_subject': contactSubject,
+            'form_email': contactEmail,
+            'form_msg': contactMessage
+         },
+         url: "absali.me/php/sendEmail.php",
 	      success: function(msg) {
 
             // Message was sent
-            if (msg == 'OK') {
+            if (msg === 'OK') {
                $('#image-loader').fadeOut();
                $('#message-warning').hide();
                $('#contactForm').fadeOut();

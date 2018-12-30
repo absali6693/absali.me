@@ -53,7 +53,7 @@
     "skillmessage":"I have worked on legacy codes as well as created projects from scratch so I understand the importance of version control, proper commenting and indentation. I am passionate about programming and I have a keen interest in cybersecurity, blockchain, algorithms, data structures and networking.",
     "education":[
       {
-        "school":"University of MAryland, College Park",
+        "school":"University of Maryland, College Park",
         "degree":"Master of Engineering, Cybersecurity",
         "graduated":"May 2020(Expected)",
         "description":"Hacking in C | TCP/IP Networking | Network Protocols | Secure Operating Systems | Security Tools | Data  Structures"
@@ -66,6 +66,12 @@
       }
     ],
     "work":[
+      {
+        "company":"University of Maryland, College Park(Bookstore)",
+        "title":"BookSeller",
+        "years":"August 2018 - Present",
+        "description":"I learned how to politely communicate with people and make them comfortable. Working at bookstore helped me understand that if I put everything into whatever is assigned to me, I can create a difference and anykind of work that is assigned ia important."
+      },
       {
         "company":"TechRacers",
         "title":"Solution Engineer",
@@ -144,11 +150,13 @@
     "testimonials":[
       {
         "text":"I enjoyed working with Abbas as he is a very hard working and a detail oriented person and has exceptional expertise in leadership and motivation. He is not only reliable and forward-thinking, but provides out of the box solutions. His enthusiasm and dedication are inspiring making him a great asset and a valuable resource. I would choose to work with him again given the opportunity, and I highly recommend him without any hesitation.",
-        "user":"Nidish Ramakrishnan"
+        "user":"Nidish Ramakrishnan",
+        "position":"Colleague"
       },
       {
         "text":"Abbas is a capable, hard-working personality. Always ready to adopt new working environments and technologies. He is dedicated, self-motivated and independent person and has a positive attitude toward work and colleagues.",
-        "user":"Praveen Deshmukh"
+        "user":"Praveen Deshmukh",
+        "position":"Senior developer"
       }
     ]
   }
