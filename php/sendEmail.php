@@ -1,6 +1,5 @@
 <?php
     //Access-Control-Allow-Origin header with wildcard.
-    header('Access-Control-Allow-Origin: *');
 
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $sender = filter_var(trim($_POST["form_email"]), FILTER_SANITIZE_EMAIL); // trim() strips any white space from beginning and end of the string
