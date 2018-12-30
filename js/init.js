@@ -157,7 +157,7 @@
             'form_email': contactEmail,
             'form_msg': contactMessage
          },
-         url: "absali.me/php/sendEmail.php",
+         url: "https://absali.me/php/sendEmail.php",
 	      success: function(msg) {
 
             // Message was sent
