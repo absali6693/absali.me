@@ -152,8 +152,8 @@
       $.ajax({
          type: 'POST',
          data: {
-            'from_name': contactName,
-            'from_subject': contactSubject,
+            'form_name': contactName,
+            'form_subject': contactSubject,
             'form_email': contactEmail,
             'form_msg': contactMessage
          },

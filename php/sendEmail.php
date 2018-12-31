@@ -1,30 +1,23 @@
 <?php
-    //Access-Control-Allow-Origin header with wildcard.
 
-    if ($_SERVER["REQUEST_METHOD"] == "POST") {
-        $sender = filter_var(trim($_POST["form_email"]), FILTER_SANITIZE_EMAIL); // trim() strips any white space from beginning and end of the string
-        $message = strip_tags($_POST["form_msg"]); // strip of all HTML and PHP tags
-        if ( empty($message)) { // Check that data was sent to the mailer.
-            http_response_code(400);
-            echo "<h1>Oops! There was a problem with your submission. Please complete the form and try again.</h1>";
-            exit;
-        }
-        $email = "absali6693@gmail.com";
-        $recipient = "absali6693@gmail.com";
-        $subject = $_POST["from_subject"];
-        $body .= "Email: $sender\n\n";
-        $body .= "Message: \n$message\n";
-        $email_headers = "From: absali6693@gmail.com <$email>";
-        $success = mail($recipient, $subject, $body, $email_headers);
-        if ($success) {
-            http_response_code(200); // Set a 200 (okay).
-            echo "<h1>Thank You! Your message has been sent.</h1>";
-        } else {
-            http_response_code(500); // Set a 500 (internal server error).
-            echo "<h1>Oops! Something went wrong and we couldn’t send your message.</h1>";
-        }
+if($_POST["submit"]) {
+    $recipient="absali@umd.edu";
+    $subject=$_POST["form_subject"];
+    $sender=$_POST["form_name"];
+    $email=$_POST["form_email"];
+    $message=$_POST["form_msg"];
+
+    $mailBody="Name: $sender\nEmail: $email\n\n$message";
+
+    $success = mail($recipient, $subject, $mailBody, "From: $sender <$email>");
+    if ($success) {
+        http_response_code(200); // Set a 200 (okay).
+        echo "<h1>Thank You! Your message has been sent.</h1>";
     } else {
-        http_response_code(403);
-        echo "<h1>There was a problem with your submission, please try again.</h1>";
-    }
+        http_response_code(500); // Set a 500 (internal server error).
+        echo "<h1>Oops! Something went wrong and we couldn’t send your message.</h1>";
+    } 
+}
+
+
 ?>
