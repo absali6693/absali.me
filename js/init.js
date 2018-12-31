@@ -158,6 +158,8 @@
             'form_msg': contactMessage
          },
          url: "php/sendEmail.php",
+         dataType: "json",
+         contentType: "application/json; charset=utf-8",
 	      success: function(msg) {
 
             // Message was sent

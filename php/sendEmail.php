@@ -12,10 +12,10 @@ if($_POST["submit"]) {
     $success = mail($recipient, $subject, $mailBody, "From: $sender <$email>");
     if ($success) {
         http_response_code(200); // Set a 200 (okay).
-        echo "<h1>Thank You! Your message has been sent.</h1>";
+        return "<h1>Thank You! Your message has been sent.</h1>";
     } else {
         http_response_code(500); // Set a 500 (internal server error).
-        echo "<h1>Oops! Something went wrong and we couldn’t send your message.</h1>";
+        return "<h1>Oops! Something went wrong and we couldn’t send your message.</h1>";
     } 
 }
 
